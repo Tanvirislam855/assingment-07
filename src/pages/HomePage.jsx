@@ -36,7 +36,7 @@ export default function HomePage() {
             </p>
           </div>
           <div className="mt-6 md:mt-8 flex justify-center md:justify-start">
-          <button className="inline-flex items-center px-5 py-3 bg-green-700 text-white text-indigo-700 font-medium rounded-lg shadow-md hover:bg-gray-50 transition-colors">
+          <button className="inline-flex items-center px-5 py-3 bg-green-700 text-white  font-medium rounded-lg shadow-md hover:bg-gray-800 transition-colors">
             <FaUserPlus className="mr-2" />
             Add a Friend
           </button>

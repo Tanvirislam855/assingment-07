@@ -2,9 +2,15 @@ import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import { getStatusColor } from '../lib/utils';
 
-export default function FriendCard({ friend }) {
-  const statusColorClass = getStatusColor(friend.status);
-  const [imgError, setImgError] = useState(false);
+ export default function FriendCard({ friend }) {
+  //  const statusColorClass = getStatusColor(friend.status);
+  
+   const [imgError, setImgError] = useState(false);
+  const statusColorClass = 
+    friend.status === "Overdue" ? "bg-red-100 text-red-700" : 
+    friend.status === "Almost Due" ? "bg-orange-100 text-orange-700" : 
+    friend.status === "On-Track" ? "bg-green-100 text-green-700" : 
+    "bg-gray-100 text-gray-700";
 
   const getInitials = (name) => {
     return name.split(' ').map(n => n[0]).join('').toUpperCase();
@@ -42,7 +48,7 @@ export default function FriendCard({ friend }) {
             ))}
           </div>
           <div className="mt-4">
-            <span className={`inline-block px-3 py-1 bg-amber-500 rounded-full text-[10px] font-bold uppercase tracking-wide ${statusColorClass}`}>
+            <span className={`inline-block px-3 py-1 bg-green-950 rounded-full text-[10px] text-white font-bold uppercase tracking-wide ${statusColorClass}`}>
               {friend.status}
             </span>
           </div>

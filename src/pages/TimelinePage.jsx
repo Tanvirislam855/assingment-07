@@ -96,7 +96,7 @@ export default function FriendDetailPage() {
 
         <div className="lg:col-span-2 space-y-6">
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-            <div className="bg-white p-5 rounded-xl shadow-sm border border-gray-200">
+            <div className="bg-white p-5 rounded-xl shadow-sm border border-gray-200 ">
               <p className="text-sm font-medium text-gray-500">Days Since Contact</p>
               <p className="mt-1 text-3xl font-bold text-gray-900">{friend.days_since_contact}</p>
             </div>
