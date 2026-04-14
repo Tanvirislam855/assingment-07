@@ -1,0 +1,218 @@
+
+  [
+    {
+    "id": 1,
+    "name": "David Kim",
+    "picture": "./src/assets/Ellipse 12.png",
+    "email": "david.kim@example.com",
+    "days_since_contact": 62,
+    "status": "on-track",
+    "tags": ["college", "close friend"],
+    "bio": "Met in university. Love hiking together.",
+    "preferred_contact": "call",
+    "goal": 14,
+    "next_due_date": "2026-05-10",
+    "interactions": [
+      { "type": "Call", "note": "Planned hiking trip", "date": "2026-03-15" }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Emma Wilson",
+    "picture": "./src/assets/Ellipse 11.png",
+    "email": "emma.wilson@example.com",
+    "days_since_contact": 62,
+    "status": "overdue",
+    "tags": ["family"],
+    "bio": "Former colleague, great mentor",
+    "preferred_contact": "email",
+    "goal": 30,
+    "next_due_date": "2026-02-27",
+    "interactions": [
+      {
+        "type": "Text",
+        "note": "Asked for career advice",
+        "date": "2026-01-28"
+      },
+      {
+        "type": "Meetup",
+        "note": "Industry conference meetup",
+        "date": "2026-01-28"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Lisa Nakamura",
+    "picture": "./src/assets/Ellipse 9.png",
+    "email": "lisa.n@example.com",
+    "days_since_contact": 62,
+    "status": "almost due",
+    "tags": ["work", "mentor"],
+    "bio": "Product manager at previous job",
+    "preferred_contact": "text",
+    "goal": 14,
+    "next_due_date": "2026-04-01",
+    "interactions": []
+  },
+  {
+    "id": 4,
+    "name": "James Wright",
+    "picture": "./src/assets/Ellipse 10.png",
+    "email": "james.w@example.com",
+    "days_since_contact": 62,
+    "status": "on-track",
+    "tags": ["gym", "neighbor"],
+    "bio": "Workout buddy, lives downstairs",
+    "preferred_contact": "text",
+    "goal": 7,
+    "next_due_date": "2026-04-05",
+    "interactions": [
+      { "type": "Text", "note": "Gym session tomorrow", "date": "2026-03-29" }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "David Kim",
+    "picture": "./src/assets/Ellipse 8.png",
+    "email": "david.kim@example.com",
+    "days_since_contact":62,
+    "status": "on-track",
+    "tags": ["college", "close friend"],
+    "bio": "Met in university. Love hiking together.",
+    "preferred_contact": "call",
+    "goal": 14,
+    "next_due_date": "2026-05-10",
+    "interactions": [
+      { "type": "Call", "note": "Planned hiking trip", "date": "2026-03-15" }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Emma Wilson",
+    "picture": "./src/assets/Ellipse 7.png",
+    "email": "emma.wilson@example.com",
+    "days_since_contact": 62,
+    "status": "overdue",
+    "tags": ["family"],
+    "bio": "Former colleague, great mentor",
+    "preferred_contact": "email",
+    "goal": 30,
+    "next_due_date": "2026-02-27",
+    "interactions": [
+      {
+        "type": "Text",
+        "note": "Asked for career advice",
+        "date": "2026-01-28"
+      },
+      {
+        "type": "Meetup",
+        "note": "Industry conference meetup",
+        "date": "2026-01-28"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Lisa Nakamura",
+    "picture": "./src/assets/Ellipse 6.png",
+    "email": "lisa.n@example.com",
+    "days_since_contact": 62,
+    "status": "almost due",
+    "tags": ["work", "mentor"],
+    "bio": "Product manager at previous job",
+    "preferred_contact": "text",
+    "goal": 14,
+    "next_due_date": "2026-04-01",
+    "interactions": []
+  },
+  {
+    "id": 8,
+    "name": "James Wright",
+    "picture": "./src/assets/Ellipse 5.png",
+    "email": "james.w@example.com",
+    "days_since_contact":62,
+    "status": "on-track",
+    "tags": ["gym", "neighbor"],
+    "bio": "Workout buddy, lives downstairs",
+    "preferred_contact": "text",
+    "goal": 7,
+    "next_due_date": "2026-04-05",
+    "interactions": [
+      { "type": "Text", "note": "Gym session tomorrow", "date": "2026-03-29" }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "David Kim",
+    "picture": "./src/assets/Ellipse 4.png",
+    "email": "david.kim@example.com",
+    "days_since_contact":62,
+    "status": "on-track",
+    "tags": ["college", "close friend"],
+    "bio": "Met in university. Love hiking together.",
+    "preferred_contact": "call",
+    "goal": 14,
+    "next_due_date": "2026-05-10",
+    "interactions": [
+      { "type": "Call", "note": "Planned hiking trip", "date": "2026-03-15" }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Emma Wilson",
+    "picture": "./src/assets/Ellipse 3.png",
+    "email": "emma.wilson@example.com",
+    "days_since_contact": 62,
+    "status": "overdue",
+    "tags": ["family"],
+    "bio": "Former colleague, great mentor",
+    "preferred_contact": "email",
+    "goal": 30,
+    "next_due_date": "2026-02-27",
+    "interactions": [
+      {
+        "type": "Text",
+        "note": "Asked for career advice",
+        "date": "2026-01-28"
+      },
+      {
+        "type": "Meetup",
+        "note": "Industry conference meetup",
+        "date": "2026-01-28"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Lisa Nakamura",
+    "picture": "./src/assets/Ellipse 1.png",
+    "email": "lisa.n@example.com",
+    "days_since_contact": 62,
+    "status": "almost due",
+    "tags": ["work", "mentor"],
+    "bio": "Product manager at previous job",
+    "preferred_contact": "text",
+    "goal": 14,
+    "next_due_date": "2026-04-01",
+    "interactions": []
+  },
+  {
+    "id": 12,
+    "name": "James Wright",
+    "picture": "./src/assets/Ellipse 2.png",
+    "email": "james.w@example.com",
+    "days_since_contact": 62,
+    "status": "on-track",
+    "tags": ["gym", "neighbor"],
+    "bio": "Workout buddy, lives downstairs",
+    "preferred_contact": "text",
+    "goal": 7,
+    "next_due_date": "2026-04-05",
+    "interactions": [
+      { "type": "Text", "note": "Gym session tomorrow", "date": "2026-03-29" }
+    ]
+  }
+  
+  
+]
