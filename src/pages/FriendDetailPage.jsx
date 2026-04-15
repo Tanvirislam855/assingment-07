@@ -15,7 +15,7 @@ export default function FriendDetailPage() {
   const [friend, setFriend] = useState(null);
   const [loading, setLoading] = useState(true);
   const [imgError, setImgError] = useState(false);
-
+  // Function-er bhitor eita add koro
   const getInitials = (name) => name.split(' ').map(n => n[0]).join('').toUpperCase();
 
   useEffect(() => {
@@ -54,7 +54,7 @@ export default function FriendDetailPage() {
               <div className="w-32 h-32 rounded-full overflow-hidden mb-4 ring-2 ring-gray-100 bg-indigo-100 flex items-center justify-center">
                 {!imgError ? (
                   <img
-                    src={friend.picture ? `.../src/assets/${friend.picture}` : defaultPic}
+                    src={friend.picture}
                     alt={friend.name}
                     className="w-full h-full object-cover"
                     onError={() => setImgError(true)}
@@ -97,15 +97,15 @@ export default function FriendDetailPage() {
 
         <div className="lg:col-span-2 space-y-6">
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-            <div className="bg-white p-5 rounded-xl shadow-sm border border-gray-200 flex flex-col items-center text-center">
-              <p className="text-sm font-medium text-gray-500 flex flex-col">Days Since Contact</p>
+            <div className="bg-white p-5 rounded-xl shadow-sm border border-gray-200 flex flex-col-reverse items-center text-center">
+              <p className="text-sm font-extrabold text-gray-600 flex ">Days Since Contact</p>
               <p className="mt-1 text-3xl font-bold text-gray-900">{friend.days_since_contact}</p>
             </div>
-            <div className="bg-white p-5 rounded-xl shadow-sm border border-gray-200 flex flex-col items-center text-center">
+            <div className="bg-white p-5 rounded-xl shadow-sm border border-gray-200 flex flex-col-reverse items-center text-center">
               <p className="text-sm font-medium text-gray-500">Goal (Days)</p>
               <p className="mt-1 text-3xl font-bold text-gray-900">{friend.goal}</p>
             </div>
-            <div className="bg-white p-5 rounded-xl shadow-sm border border-gray-200 flex flex-col items-center text-center">
+            <div className="bg-white p-5 rounded-xl shadow-sm border border-gray-200 flex flex-col-reverse items-center text-center">
               <p className="text-sm font-medium text-gray-500">Next Due Date</p>
               <p className="mt-1 text-xl font-bold text-gray-900">{nextDueDate}</p>
             </div>
