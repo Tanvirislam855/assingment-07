@@ -44,7 +44,7 @@ export default function HomePage() {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mb-12">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mb-12 items-center justify-center text-center">
         <SummaryCard title="Total Friends" value={totalFriends}/>
         <SummaryCard title="On Track" value={onTrack} />
         <SummaryCard title="Need Attention" value={needAttention} />
