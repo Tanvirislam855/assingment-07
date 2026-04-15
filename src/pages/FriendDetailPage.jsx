@@ -81,13 +81,13 @@ export default function FriendDetailPage() {
               <p className="mt-1 text-sm text-gray-700">{friend.email}</p>
 
               <div className="mt-6 w-full space-y-2">
-                <button className="w-full flex items-center justify-center px-4 py-2.5 border border-gray-300 rounded-lg text-gray-700 hover:bg-gray-50 transition-colors">
+                <button className="w-full flex items-center justify-center px-4 py-2.5 border border-gray-300 rounded-lg text-black transition-colors hover:bg-emerald-700">
                   <FaClock className="mr-2 text-gray-500" /> Snooze 2 Weeks
                 </button>
-                <button className="w-full flex items-center justify-center px-4 py-2.5 border border-gray-300 rounded-lg text-gray-700 hover:bg-gray-50 transition-colors">
+                <button className="w-full flex items-center justify-center px-4 py-2.5 border border-gray-300 rounded-lg text-black hover:bg-blue-700 transition-colors">
                   <FaArchive className="mr-2 text-gray-500" /> Archive
                 </button>
-                <button className="w-full flex items-center justify-center px-4 py-2.5 border border-red-200 rounded-lg text-red-600 hover:bg-red-50 transition-colors">
+                <button className="w-full flex items-center justify-center px-4 py-2.5 border border-red-200 rounded-lg text-red-600 font-bold hover:bg-red-700 transition-colors">
                   <FaTrash className="mr-2" /> Delete
                 </button>
               </div>
@@ -99,15 +99,15 @@ export default function FriendDetailPage() {
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             <div className="bg-white p-5 rounded-xl shadow-sm border border-gray-200 flex flex-col-reverse items-center text-center">
               <p className="text-sm font-extrabold text-gray-600 flex ">Days Since Contact</p>
-              <p className="mt-1 text-3xl font-bold text-gray-900">{friend.days_since_contact}</p>
+              <p className="mt-1 text-3xl font-bold text-green-950">{friend.days_since_contact}</p>
             </div>
             <div className="bg-white p-5 rounded-xl shadow-sm border border-gray-200 flex flex-col-reverse items-center text-center">
               <p className="text-sm font-medium text-gray-500">Goal (Days)</p>
-              <p className="mt-1 text-3xl font-bold text-gray-900">{friend.goal}</p>
+              <p className="mt-1 text-3xl font-bold text-green-950">{friend.goal}</p>
             </div>
             <div className="bg-white p-5 rounded-xl shadow-sm border border-gray-200 flex flex-col-reverse items-center text-center">
               <p className="text-sm font-medium text-gray-500">Next Due Date</p>
-              <p className="mt-1 text-xl font-bold text-gray-900">{nextDueDate}</p>
+              <p className="mt-1 text-xl font-bold text-green-950">{nextDueDate}</p>
             </div>
           </div>
 
@@ -118,8 +118,8 @@ export default function FriendDetailPage() {
                 <FaEdit size={18} />
               </button>
             </div>
-            <p className="mt-2 text-gray-700">
-              Connect every <span className="font-semibold">{friend.goal} days</span>
+            <p className="mt-2 text-gray-600">
+              Connect every <span className="font-semibold text-black">{friend.goal} days</span>
             </p>
           </div>
 
