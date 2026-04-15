@@ -13,7 +13,8 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <NavLink to="/" className="flex items-center">
-            <span className="text-2xl font-bold"><img src="./src/assets/logo.png" alt="" /></span>
+          <h2 className='text-3xl font-bold'>Keen<span className='text-3xl font-bold text-green-950'>Keeeper</span></h2>
+            {/* <span className="text-2xl font-bold">Keen</span> */}
           </NavLink>
           <nav className="flex space-x-2 sm:space-x-4">
             {navLinks.map((link) => {
