@@ -6,9 +6,9 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="flex flex-col items-center space-y-6">
           <div className="text-center items-center ">
-            <h2 className='flex justify-center'>
+            <h2 className='flex justify-center font-bold'>
               <img src="./src/assets/logo-xl.png" alt="" /></h2>
-            <p className="mt-2 text-white">
+            <p className="mt-2 text-white font-bold">
               Your personal shelf of meaningful connections. Browse, tend, and nurture the relationships that matter most.
             </p>
           </div>
